@@ -22,16 +22,16 @@ PenalCode[0] = {
 			title: "Simple Assault",
 			class: "Misdemeanor",
 			id: "P.C. 1001",
-			months: 10,
+			months: 1,
 			fine: 1500,
-			color: "green",
+			color: "orange",
 			description: "A person who intentionally puts another in the reasonable belief of imminent physical harm or offensive contact is guilty under this code section.",
 		},
 		2: {
 			title: "Assault",
 			class: "Misdemeanor",
 			id: "P.C. 1002",
-			months: 15,
+			months: 10,
 			fine: 2850,
 			color: "orange",
 			description: "A person who intentionally puts another in the reasonable belief of imminent serious physical harm or offensive contact is guilty under this code section.",
@@ -40,19 +40,20 @@ PenalCode[0] = {
 			title: "Aggravated Assault",
 			class: "Felony",
 			id: "P.C. 1003",
-			months: 20,
+			months: 15,
 			fine: 3250,
-			color: "orange",
+			color: "red",
 			description: "A person who uses intentional and unlawful force or violence to cause physical harm to another person is guilty under this code section.",
 		},
 		4: {
 			title: "Assault with a Deadly Weapon",
 			class: "Felony",
 			id: "P.C. 1004",
-			months: 25,
+			months: 20,
 			fine: 4750,
 			color: "red",
-			description: "A person who attempts to cause or threaten immediate harm to another while using a weapon, tool, or other dangerous item to communicate that threat is guilty under this code section.",
+			description:
+				"A person who attempts to cause or threaten immediate harm to another while using a weapon, tool, or other dangerous item to communicate that threat is guilty under this code section.",
 		},
 		5: {
 			title: "Battery",
@@ -61,7 +62,8 @@ PenalCode[0] = {
 			months: 15,
 			fine: 2750,
 			color: "orange",
-			description: "A person who unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
+			description:
+				"A person who unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
 		},
 		6: {
 			title: "Aggravated Battery",
@@ -70,22 +72,24 @@ PenalCode[0] = {
 			months: 20,
 			fine: 3750,
 			color: "red",
-			description: "A person who intentionally and unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
+			description:
+				"A person who intentionally and unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
 		},
 		7: {
 			title: "Involuntary Manslaughter",
 			class: "Felony",
 			id: "P.C. 1007",
-			months: 30,
+			months: 20,
 			fine: 7500,
 			color: "red",
-			description: " A person who unintentionally kills another, with or without a quarrel or heat of passion is guilty under this code section. A person who, through a criminal accident or negligence, causes someones death is guilty under this code section.",
+			description:
+				" A person who unintentionally kills another, with or without a quarrel or heat of passion is guilty under this code section. A person who, through a criminal accident or negligence, causes someones death is guilty under this code section.",
 		},
 		8: {
 			title: "Vehicular Manslaughter",
 			class: "Felony",
 			id: "P.C. 1008",
-			months: 35,
+			months: 25,
 			fine: 7500,
 			color: "red",
 			description: "A person who, while operating a vehicle, through a criminal accident or negligence, causes someones death is guilty under this code section.",
@@ -94,100 +98,106 @@ PenalCode[0] = {
 			title: "Attempted Murder of a Civilian",
 			class: "Felony",
 			id: "P.C. 1009",
-			months: 40,
+			months: 30,
 			fine: 15000,
 			color: "red",
-			description: "A person who takes a direct step towards killing another person and intended to kill that person is guilty under this code section. A person who is hired to murder, slay, or execute another person for material or financial gain, even if a direct step towards the killing is not taken, is guilty under this code section.",
+			description:
+				"A person who takes a direct step towards killing another person and intended to kill that person is guilty under this code section. A person who is hired to murder, slay, or execute another person for material or financial gain, even if a direct step towards the killing is not taken, is guilty under this code section.",
 		},
 		10: {
 			title: "Second Degree Murder",
 			class: "Felony",
 			id: "P.C. 1010",
-			months: 50,
+			months: 40,
 			fine: 17500,
 			color: "red",
-			description: "A person who unlawfully kills another with malice aforethought is guilty under this code section.",
+			description: "A person who unlawfully kills another person either by intentional malice or reckless disregard that occurs in the spur of the moment is guilty under this code section.",
 		},
 		11: {
 			title: "Accessory to Second Degree Murder",
 			class: "Felony",
 			id: "P.C. 1011",
-			months: 40,
+			months: 25,
 			fine: 5000,
 			color: "red",
-			description: "A person who knowingly and willingly helps someone to commit Murder of the Second Degree is guilty under this code section.",
+			description: "A person who assists another person to commit murder of the second degree is guilty under this code section.",
 		},
 		12: {
 			title: "First Degree Murder",
 			class: "Felony",
 			id: "P.C. 1012",
-			months: 65,
+			months: 50,
 			fine: 25000,
 			color: "red",
-			description: "A person who commits murder while engaging in a felony offense that has been proven to be a premeditated act is guilty under this code section. A person who commits murder which is done in a way that is willful, deliberate and premeditated is guilty under this code section.",
+			description:
+				"A person who commits the intentional killing which is done in a way that is willful, deliberate and premeditated is guilty under this code section. Additionally, a person who kills another individual while engaging in a felony offense, that has been proved to be a premeditated act, is guilty under this code section.",
 		},
 		13: {
 			title: "Accessory to First Degree Murder",
 			class: "Felony",
 			id: "P.C. 1013",
-			months: 45,
+			months: 35,
 			fine: 15000,
 			color: "red",
-			description: "A person who knowingly and willingly helps someone to commit Murder of the First Degree is guilty under this code section.",
+			description: "A person who assists another person to commit murder of the first degree is guilty under this code section.",
 		},
 		14: {
 			title: "Murder of a Public Servant or Peace Officer",
 			class: "Felony",
 			id: "P.C. 1014",
-			months: 100,
+			months: 75,
 			fine: 80000,
 			color: "red",
-			description: "A person who unlawfully kills a public servant or peace officer is guilty under this code section.",
+			description:
+				"A person who commits the intentional killing of a public servant or peace officer, while in the execution of their duties, in a way that is willful, deliberate and premeditated is guilty under this code section.",
 		},
 		15: {
 			title: "Attempted Murder of a Public Servant or Peace Officer",
 			class: "Felony",
 			id: "P.C. 1015",
-			months: 75,
-			fine: 40000,
+			months: 50,
+			fine: 35000,
 			color: "red",
-			description: "A person who attempts to unlawfully kill a public servant or peace officer is guilty under this code section.",
+			description:
+				"A person who attempts to unlawfully kill or cause great bodily harm to a public servant or peace officer, while in the execution of their duties, is guilty under this code section.",
 		},
 		16: {
 			title: "Accessory to the Murder of a Public Servant or Peace Officer",
 			class: "Felony",
 			id: "P.C. 1016",
-			months: 45,
-			fine: 25000,
+			months: 35,
+			fine: 20000,
 			color: "red",
-			description: "A person who helps someone unlawfully kill a public servant or peace officer is guilty under this code section.",
+			description:
+				"A person who assists another person who attempts to unlawfully kill or cause great bodily harm to a public servant or peace officer, while in the execution of their duties, is guilty under this code section.",
 		},
 		17: {
 			title: "Unlawful Imprisonment",
 			class: "Misdemeanor",
 			id: "P.C. 1017",
-			months: 5,
+			months: 1,
 			fine: 3000,
-			color: "green",
+			color: "orange",
 			description: "A person who intentionally restricts anothers freedom of movement without their consent is guilty under this code section",
 		},
 		18: {
 			title: "Kidnapping",
 			class: "Felony",
 			id: "P.C. 1018",
-			months: 20,
+			months: 15,
 			fine: 5000,
-			color: "orange",
-			description: "A person who forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any person is guilty under this code section.",
+			color: "red",
+			description: "A person who abducts or confines another individual against their will by force, threat, or deception, is guilty under this code section. ",
 		},
 		19: {
 			title: "Accessory to Kidnapping",
-			class: "Felony",
+			class: "Misdemeanor",
 			id: "P.C. 1019",
 			months: 7,
 			fine: 750,
 			color: "orange",
-			description: "A person helps someone forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any person is guilty under this code section.",
+			description:
+				"A person who, without directly committing the act of kidnapping, knowingly aids, assists, encourages, or facilitates the commission of the kidnapping by another person is guilty under this code section.",
 		},
 		20: {
 			title: "Attempted Kidnapping",
@@ -196,23 +206,23 @@ PenalCode[0] = {
 			months: 10,
 			fine: 750,
 			color: "orange",
-			description: "A person who attempts to forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any person is guilty under this code section.",
+			description: "A person who takes a direct step towards the kidnapping of another person is guilty under this code section.",
 		},
 		21: {
 			title: "Hostage Taking",
 			class: "Felony",
 			id: "P.C. 1021",
-			months: 25,
-			fine: 5000,
-			color: "orange",
+			months: 20,
+			fine: 7500,
+			color: "red",
 			description: "A person who kidnaps someone in an attempt to gain the power to attain something, with threat of their life is guilty under this code section.",
 		},
 		22: {
 			title: "Accessory to Hostage Taking",
-			class: "Felony",
+			class: "Misdemeanor",
 			id: "P.C. 1022",
 			months: 10,
-			fine: 600,
+			fine: 1500,
 			color: "orange",
 			description: "A person who helps someone commit hostage taking is guilty under this code section.",
 		},
@@ -222,35 +232,37 @@ PenalCode[0] = {
 			id: "P.C. 1023",
 			months: 25,
 			fine: 7500,
-			color: "orange",
+			color: "red",
 			description: "A person who intentionally restricts a public servant or peace officers freedom of movement without their consent is guilty under this code section",
 		},
 		24: {
 			title: "Criminal Threats",
 			class: "Misdemeanor",
 			id: "P.C. 1024",
-			months: 5,
-			fine: 500,
+			months: 1,
+			fine: 2000,
 			color: "orange",
-			description: "A person who communicates to another that they will physically harm or kill such other, placing such other in a reasonable state of fear for their own safety is guilty under this code section. Such communication can be not just verbal, but also in writing or transmitted through other media is guilty under this code section.",
+			description:
+				"A person who communicates to another that they will physically harm or kill such other, placing such other in a reasonable state of fear for their own safety is guilty under this code section. Such communication can be not just verbal, but also in writing or transmitted through other media is guilty under this code section.",
 		},
 		25: {
 			title: "Reckless Endangerment",
 			class: "Misdemeanor",
 			id: "P.C. 1025",
 			months: 10,
-			fine: 1000,
+			fine: 1750,
 			color: "orange",
-			description: "A person whos conduct creates a substantial serious risk of injury to another person is guilty under this code section.",
+			description:
+				"A person who consciously disregards the potential risks or dangers of their actions which create a substantial serious risk of injury to another person is guilty under this code section.",
 		},
 		26: {
-			title: "Gang Related Shooting",
+			title: "Gang Related Enhancement",
 			class: "Felony",
 			id: "P.C. 1026",
 			months: 10,
 			fine: 5000,
 			color: "red",
-			description: "A person who discharges their firearm in a dispute related to gang activity, while having affiliation to a gang, is guilty under this code section.",
+			description: "This charge is added to another charge, when the individual’s actions are connected to or motivated by gang activity, which the individual is associated with.",
 		},
 		27: {
 			title: "Desecration of a Human Corpse",
@@ -259,7 +271,8 @@ PenalCode[0] = {
 			months: 30,
 			fine: 10000,
 			color: "red",
-			description: "Any act committed after the death of a human being including, but not limited to, dismemberment, disfigurement, mutilation, burning, or any act committed to cause the dead body to be devoured, scattered or dissipated",
+			description:
+				"Any act committed after the death of a human being including, but not limited to, dismemberment, disfigurement, mutilation, burning, or any act committed to cause the dead body to be devoured, scattered or dissipated",
 		},
 		28: {
 			title: "Torture",
@@ -268,7 +281,8 @@ PenalCode[0] = {
 			months: 20,
 			fine: 15000,
 			color: "red",
-			description: "A person who intentionally causes extreme pain and suffering to someone is guilty under this code section.",
+			description:
+				"A person who intentionally causes extreme pain and suffering to someone for reasons such as punishment, extracting a confession, interrogation, revenge, extortion, or any sadistic purpose, is guilty under this code section.",
 		},
 	},
 };
@@ -337,7 +351,8 @@ PenalCode[1] = {
 			months: 25,
 			fine: 10000,
 			color: "green",
-			description: "A person who takes property from the possession of another against their will, by means of force or fear, such as through criminal threats, blunt weapons, assault or battery is guilty under this code section.",
+			description:
+				"A person who takes property from the possession of another against their will, by means of force or fear, such as through criminal threats, blunt weapons, assault or battery is guilty under this code section.",
 		},
 		8: {
 			title: "Accessory to Robbery",
@@ -355,7 +370,8 @@ PenalCode[1] = {
 			months: 20,
 			fine: 3000,
 			color: "green",
-			description: "A person who attempts to take property from the possession of another against their will, by means of force or fear, such as through criminal threats, blunt weapons, assault or battery is guilty under this code section.",
+			description:
+				"A person who attempts to take property from the possession of another against their will, by means of force or fear, such as through criminal threats, blunt weapons, assault or battery is guilty under this code section.",
 		},
 		10: {
 			title: "Armed Robbery",
@@ -364,7 +380,8 @@ PenalCode[1] = {
 			months: 25,
 			fine: 15000,
 			color: "orange",
-			description: "A person who takes property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
+			description:
+				"A person who takes property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
 		},
 		11: {
 			title: "Accessory to Armed Robbery",
@@ -373,7 +390,8 @@ PenalCode[1] = {
 			months: 15,
 			fine: 3000,
 			color: "orange",
-			description: "A person who helps someone to take property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
+			description:
+				"A person who helps someone to take property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
 		},
 		12: {
 			title: "Attempted Armed Robbery",
@@ -382,7 +400,8 @@ PenalCode[1] = {
 			months: 25,
 			fine: 3000,
 			color: "orange",
-			description: "A person who attempts to take property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
+			description:
+				"A person who attempts to take property from the possession of another against their will, by means of force facilitated with a gun or any bladed weapon is guilty under this code section.",
 		},
 		13: {
 			title: "Grand Larceny",
@@ -436,7 +455,8 @@ PenalCode[1] = {
 			months: 15,
 			fine: 1000,
 			color: "orange",
-			description: "A person who attempts to sell either items that have been used to commit a crime, or with the intent of those items being used to commit a crime, is guilty under this code section.",
+			description:
+				"A person who attempts to sell either items that have been used to commit a crime, or with the intent of those items being used to commit a crime, is guilty under this code section.",
 		},
 		19: {
 			title: "Theft of an Aircraft",
@@ -487,7 +507,8 @@ PenalCode[2] = {
 			months: 10,
 			fine: 750,
 			color: "green",
-			description: "A person who is in possession of a piece of identification that does not belong to them, without the consent of the owner, who has not made any attempt to dispose of the item, is guilty under this section.",
+			description:
+				"A person who is in possession of a piece of identification that does not belong to them, without the consent of the owner, who has not made any attempt to dispose of the item, is guilty under this section.",
 		},
 		5: {
 			title: "Possession of Stolen Government Identification",
@@ -496,7 +517,8 @@ PenalCode[2] = {
 			months: 20,
 			fine: 2000,
 			color: "green",
-			description: "A person who is in possession of a piece of government identification that does not belong to them, who has not made any attempt to dispose of the item, is guilty under this section.",
+			description:
+				"A person who is in possession of a piece of government identification that does not belong to them, who has not made any attempt to dispose of the item, is guilty under this section.",
 		},
 		6: {
 			title: "Extortion",
@@ -505,7 +527,8 @@ PenalCode[2] = {
 			months: 30,
 			fine: 15000,
 			color: "orange",
-			description: "A person who intimidates or influences another to provide or hand over properties or services is guilty under this code section. A person who utilizes or threatens their power or authority with demonstrated malice aforethought in order to compel action by another is guilty under this code section",
+			description:
+				"A person who intimidates or influences another to provide or hand over properties or services is guilty under this code section. A person who utilizes or threatens their power or authority with demonstrated malice aforethought in order to compel action by another is guilty under this code section",
 		},
 		7: {
 			title: "Fraud",
@@ -523,7 +546,8 @@ PenalCode[2] = {
 			months: 15,
 			fine: 750,
 			color: "green",
-			description: "A person who knowingly signs a document or agreement, electronic or otherwise, without the consent or authority of whom they are signing for is guilty under this code section. A person who creates fake government documents is guilty under this code section.",
+			description:
+				"A person who knowingly signs a document or agreement, electronic or otherwise, without the consent or authority of whom they are signing for is guilty under this code section. A person who creates fake government documents is guilty under this code section.",
 		},
 		9: {
 			title: "Money Laundering",
@@ -532,7 +556,8 @@ PenalCode[2] = {
 			months: 25,
 			fine: 40000,
 			color: "red",
-			description: "A person who possesses, hides, transfers, receives, or maintains the storage of funds earned through comprehensive criminal activities is guilty under this code. A person who maintains an establishment with a purpose to launder funds collected through comprehensive criminal activities is guilty under this code.",
+			description:
+				"A person who possesses, hides, transfers, receives, or maintains the storage of funds earned through comprehensive criminal activities is guilty under this code. A person who maintains an establishment with a purpose to launder funds collected through comprehensive criminal activities is guilty under this code.",
 		},
 	},
 };
@@ -556,7 +581,8 @@ PenalCode[3] = {
 			months: 15,
 			fine: 15000,
 			color: "green",
-			description: "A person who, without proper authorization, enters any government owned or managed facility that is secured with the intent of keeping ordinary citizens outside is guilty under this code section.",
+			description:
+				"A person who, without proper authorization, enters any government owned or managed facility that is secured with the intent of keeping ordinary citizens outside is guilty under this code section.",
 		},
 		3: {
 			title: "Arson",
@@ -565,7 +591,8 @@ PenalCode[3] = {
 			months: 15,
 			fine: 25000,
 			color: "orange",
-			description: "A person who intentionally and maliciously sets fire to or burns any structure, forest land, or property without prior authorization is guilty under this code section. A person who intentionally aids, counsels, or helps facilitate the burning of any structure, forest land, or property without proper authorization is guilty under this code section.",
+			description:
+				"A person who intentionally and maliciously sets fire to or burns any structure, forest land, or property without prior authorization is guilty under this code section. A person who intentionally aids, counsels, or helps facilitate the burning of any structure, forest land, or property without proper authorization is guilty under this code section.",
 		},
 		4: {
 			title: "Vandalism",
@@ -592,7 +619,8 @@ PenalCode[3] = {
 			months: 0,
 			fine: 200,
 			color: "green",
-			description: 'As used in this section, "litter" means garbage, trash, waste, ashes, cans, bottles, wire, paper, cartons, vessel parts, vehicle parts, furniture, glass, or anything else of an unsightly or unsanitary nature. No person shall place any waste, refuse, litter or foreign substance in any area or receptacle except those provided for that purpose.',
+			description:
+				'As used in this section, "litter" means garbage, trash, waste, ashes, cans, bottles, wire, paper, cartons, vessel parts, vehicle parts, furniture, glass, or anything else of an unsightly or unsanitary nature. No person shall place any waste, refuse, litter or foreign substance in any area or receptacle except those provided for that purpose.',
 		},
 	},
 };
@@ -607,7 +635,8 @@ PenalCode[4] = {
 			months: 20,
 			fine: 20000,
 			color: "green",
-			description: "A person who offers or gives a monetary gift, gratuity, valuable goods, or other reward to a public official, a government employee, or peace officer in an attempt to influence their duties or actions is guilty under this code section.",
+			description:
+				"A person who offers or gives a monetary gift, gratuity, valuable goods, or other reward to a public official, a government employee, or peace officer in an attempt to influence their duties or actions is guilty under this code section.",
 		},
 		2: {
 			title: "Anti-Mask Law",
@@ -616,7 +645,8 @@ PenalCode[4] = {
 			months: 0,
 			fine: 750,
 			color: "green",
-			description: "A person who wears a mask or face covering while committing a crime is guilty under this code section. A person who wears a mask in a government facility, after being asked to remove it, is guilty under this code section.",
+			description:
+				"A person who wears a mask or face covering while committing a crime is guilty under this code section. A person who wears a mask in a government facility, after being asked to remove it, is guilty under this code section.",
 		},
 		3: {
 			title: "Possession of Contraband in a Government Facility",
@@ -643,7 +673,8 @@ PenalCode[4] = {
 			months: 10,
 			fine: 10050,
 			color: "green",
-			description: "Any person arrested, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer is guilty under this code section.",
+			description:
+				"Any person arrested, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer is guilty under this code section.",
 		},
 		6: {
 			title: "Jailbreak",
@@ -724,7 +755,8 @@ PenalCode[4] = {
 			months: 10,
 			fine: 450,
 			color: "green",
-			description: "A person who conspires to commit a crime, either alone or with a group, is guilty under this section. A person charged with this should receive HALF the time of the original crime.",
+			description:
+				"A person who conspires to commit a crime, either alone or with a group, is guilty under this section. A person charged with this should receive HALF the time of the original crime.",
 		},
 		15: {
 			title: "Violating a Court Order",
@@ -751,7 +783,8 @@ PenalCode[4] = {
 			months: 5,
 			fine: 2000,
 			color: "orange",
-			description: "A person who is disrespectful of the court process, such as being excessively loud or belligerent, refusing to be sworn in as a witness, refusing to comply with a judges request, is guilty under this code section.",
+			description:
+				"A person who is disrespectful of the court process, such as being excessively loud or belligerent, refusing to be sworn in as a witness, refusing to comply with a judges request, is guilty under this code section.",
 		},
 		18: {
 			title: "Resisting Arrest",
@@ -760,7 +793,8 @@ PenalCode[4] = {
 			months: 10,
 			fine: 7500,
 			color: "orange",
-			description: "A person who avoids apprehension from an officer by non-vehicular means or resists apprehension by any physical means is guilty under this code section is guilty under this code section.",
+			description:
+				"A person who avoids apprehension from an officer by non-vehicular means or resists apprehension by any physical means is guilty under this code section is guilty under this code section.",
 		},
 	},
 };
@@ -784,7 +818,8 @@ PenalCode[5] = {
 			months: 0,
 			fine: 750,
 			color: "green",
-			description: "A person who commits such acts that are of a nature to corrupt the public morals, or outrage the sense of public decency, or affect the peace and quiet of persons who may witness them, or engages in brawling or fighting, or engages in such conduct as to constitute a breach of the peace is guilty under this code section.",
+			description:
+				"A person who commits such acts that are of a nature to corrupt the public morals, or outrage the sense of public decency, or affect the peace and quiet of persons who may witness them, or engages in brawling or fighting, or engages in such conduct as to constitute a breach of the peace is guilty under this code section.",
 		},
 		3: {
 			title: "Disturbing the Peace",
@@ -811,7 +846,8 @@ PenalCode[5] = {
 			months: 10,
 			fine: 1000,
 			color: "orange",
-			description: "A person who makes communication, whether in person or by means of internet, phone, or other devices (may also apply to circumventing a block on a phone number) with the repeated intent to cause annoyance.",
+			description:
+				"A person who makes communication, whether in person or by means of internet, phone, or other devices (may also apply to circumventing a block on a phone number) with the repeated intent to cause annoyance.",
 		},
 		6: {
 			title: "Misdemeanor Obstruction of Justice",
@@ -848,7 +884,8 @@ PenalCode[5] = {
 			months: 0,
 			fine: 500,
 			color: "green",
-			description: "Criminal loitering refers to anyone who is lingering or hanging around in a public or private area, with the intent to commit criminal activity, or who is assisting and/or aiding another with a crime",
+			description:
+				"Criminal loitering refers to anyone who is lingering or hanging around in a public or private area, with the intent to commit criminal activity, or who is assisting and/or aiding another with a crime",
 		},
 		10: {
 			title: "Tampering",
@@ -857,7 +894,8 @@ PenalCode[5] = {
 			months: 10,
 			fine: 1000,
 			color: "green",
-			description: "A person who willfully and intentionally destroys or attempts to destroy, creates or attempts to create false evidence, conceal, or alter any evidence that can later potentially be used in a Criminal investigation or court proceeding is guilty under this code section.",
+			description:
+				"A person who willfully and intentionally destroys or attempts to destroy, creates or attempts to create false evidence, conceal, or alter any evidence that can later potentially be used in a Criminal investigation or court proceeding is guilty under this code section.",
 		},
 		11: {
 			title: "Vehicle Tampering",
@@ -875,7 +913,8 @@ PenalCode[5] = {
 			months: 20,
 			fine: 1500,
 			color: "green",
-			description: "A person who willfully and intentionally destroys or attempts to destroy, creates or attempts to create false evidence, conceal, or alter any evidence that can later potentially be used in a Criminal investigation or court proceeding is guilty under this code section.",
+			description:
+				"A person who willfully and intentionally destroys or attempts to destroy, creates or attempts to create false evidence, conceal, or alter any evidence that can later potentially be used in a Criminal investigation or court proceeding is guilty under this code section.",
 		},
 		13: {
 			title: "Witness Tampering",
@@ -884,7 +923,8 @@ PenalCode[5] = {
 			months: 0,
 			fine: 0,
 			color: "green",
-			description: "This pertains to a person who knowingly and maliciously prevents or encourages any witness or victim from attending or giving testimony at any trial, proceeding, or inquiry authorized by law with the use of bribery, fear, or other tactics.",
+			description:
+				"This pertains to a person who knowingly and maliciously prevents or encourages any witness or victim from attending or giving testimony at any trial, proceeding, or inquiry authorized by law with the use of bribery, fear, or other tactics.",
 		},
 		14: {
 			title: "Failure to Provide Identification",
@@ -911,7 +951,8 @@ PenalCode[5] = {
 			months: 10,
 			fine: 750,
 			color: "orange",
-			description: "Whenever two or more persons, assembled and acting together, make any attempt or advance toward the commission of an act which would be a riot if actually committed. Whenever two or more persons assemble together to do an unlawful act, or do a lawful act in a violent, boisterous, or tumultuous manner is guilty under this code section.",
+			description:
+				"Whenever two or more persons, assembled and acting together, make any attempt or advance toward the commission of an act which would be a riot if actually committed. Whenever two or more persons assemble together to do an unlawful act, or do a lawful act in a violent, boisterous, or tumultuous manner is guilty under this code section.",
 		},
 		17: {
 			title: "Government Corruption",
@@ -920,7 +961,8 @@ PenalCode[5] = {
 			months: 0,
 			fine: 0,
 			color: "red",
-			description: "his pertains to government employees, including but not limited to law enforcement, who act outside of the interests of the public good or public justice; OR a government employee who demonstrates criminal negligence in their duties; OR a government employee convicted by the Department of Justice for committing a felony while on duty.",
+			description:
+				"his pertains to government employees, including but not limited to law enforcement, who act outside of the interests of the public good or public justice; OR a government employee who demonstrates criminal negligence in their duties; OR a government employee convicted by the Department of Justice for committing a felony while on duty.",
 		},
 		18: {
 			title: "Stalking",
@@ -929,7 +971,8 @@ PenalCode[5] = {
 			months: 30,
 			fine: 1500,
 			color: "orange",
-			description: "A person who intentionally and maliciously follows or harasses another person who has made it known that they do not consent to such following or harassment is guilty under this code section. A person whose actions cause another person to reasonably fear for their safety, or the safety of any person is guilty under this code section.",
+			description:
+				"A person who intentionally and maliciously follows or harasses another person who has made it known that they do not consent to such following or harassment is guilty under this code section. A person whose actions cause another person to reasonably fear for their safety, or the safety of any person is guilty under this code section.",
 		},
 		19: {
 			title: "Aiding and Abetting",
@@ -1304,7 +1347,8 @@ PenalCode[6] = {
 			months: 10,
 			fine: 2500,
 			color: "green",
-			description: "A person who is in possession of any equipment, product or material of any kind which is primarily intended or designed for use in injecting, ingesting, inhaling, or otherwise introducing into the human body a controlled substance.",
+			description:
+				"A person who is in possession of any equipment, product or material of any kind which is primarily intended or designed for use in injecting, ingesting, inhaling, or otherwise introducing into the human body a controlled substance.",
 		},
 		40: {
 			title: "Possession Drug Manufacturing Materials",
@@ -1313,7 +1357,8 @@ PenalCode[6] = {
 			months: 35,
 			fine: 20000,
 			color: "green",
-			description: "A person who is in possession of any equipment, product or material of any kind which could be used in manufacturing, compounding, converting, concealing, producing, processing, preparing a controlled substance.",
+			description:
+				"A person who is in possession of any equipment, product or material of any kind which could be used in manufacturing, compounding, converting, concealing, producing, processing, preparing a controlled substance.",
 		},
 		41: {
 			title: "Sale of a controlled substance",
@@ -1322,7 +1367,8 @@ PenalCode[6] = {
 			months: 10,
 			fine: 10000,
 			color: "green",
-			description: "A person who sells, offers to sell, transports with the intent to sell, or gives away a controlled substance to another person, regardless of whether or not they possess that controlled substance is guilty under this code section.",
+			description:
+				"A person who sells, offers to sell, transports with the intent to sell, or gives away a controlled substance to another person, regardless of whether or not they possess that controlled substance is guilty under this code section.",
 		},
 		42: {
 			title: "Drug Trafficking",
@@ -1340,7 +1386,8 @@ PenalCode[6] = {
 			months: 20,
 			fine: 3000,
 			color: "orange",
-			description: "A person who operates a motor vehicle on a public roadway while under the influence of narcotics, or other medicine that inhibits your ability to drive safely is guilty under this code section.",
+			description:
+				"A person who operates a motor vehicle on a public roadway while under the influence of narcotics, or other medicine that inhibits your ability to drive safely is guilty under this code section.",
 		},
 		44: {
 			title: "Public Intoxication",
@@ -1454,7 +1501,8 @@ PenalCode[7] = {
 			months: 20,
 			fine: 30000,
 			color: "green",
-			description: "A person who is in possession of a firearm with modifications that are illegal is guilty under this code section. Examples include Full Auto Switch and serial number removal.",
+			description:
+				"A person who is in possession of a firearm with modifications that are illegal is guilty under this code section. Examples include Full Auto Switch and serial number removal.",
 		},
 		11: {
 			title: "Weapon Trafficking",
@@ -1472,7 +1520,8 @@ PenalCode[7] = {
 			months: 10,
 			fine: 20000,
 			color: "orange",
-			description: "A person who removes a firearm from concealment or holstering in a public place, either recklessly or threateningly, without obvious threat of harm or other lawful reason to use a firearm is guilty under this code section.",
+			description:
+				"A person who removes a firearm from concealment or holstering in a public place, either recklessly or threateningly, without obvious threat of harm or other lawful reason to use a firearm is guilty under this code section.",
 		},
 		13: {
 			title: "Insurrection",
@@ -1490,7 +1539,8 @@ PenalCode[7] = {
 			months: 0,
 			fine: 5000,
 			color: "green",
-			description: "A person who, while operating an aircraft, fies over restricted airspace, or flies into controlled airspace without prior authorisation from air control, is guilty under this code section.",
+			description:
+				"A person who, while operating an aircraft, fies over restricted airspace, or flies into controlled airspace without prior authorisation from air control, is guilty under this code section.",
 		},
 		15: {
 			title: "Jaywalking",
@@ -1532,7 +1582,8 @@ PenalCode[8] = {
 			months: 10,
 			fine: 2000,
 			color: "green",
-			description: "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer who communicates visually or audibly their request to pull over or stop is guilty under this code.",
+			description:
+				"A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer who communicates visually or audibly their request to pull over or stop is guilty under this code.",
 		},
 		3: {
 			title: "Reckless Evading",
@@ -1541,7 +1592,8 @@ PenalCode[8] = {
 			months: 15,
 			fine: 5000,
 			color: "orange",
-			description: "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer in a reckless or dangerous manner is guilty under this code.",
+			description:
+				"A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer in a reckless or dangerous manner is guilty under this code.",
 		},
 		4: {
 			title: "Failure to Yield to Emergency Vehicle",
@@ -1577,7 +1629,8 @@ PenalCode[8] = {
 			months: 0,
 			fine: 1250,
 			color: "green",
-			description: "A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to negligence, is guilty under this code section.",
+			description:
+				"A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to negligence, is guilty under this code section.",
 		},
 		8: {
 			title: "Reckless Driving",
@@ -1586,7 +1639,8 @@ PenalCode[8] = {
 			months: 10,
 			fine: 5250,
 			color: "orange",
-			description: "A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to recklessness, is guilty under this code section.",
+			description:
+				"A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to recklessness, is guilty under this code section.",
 		},
 		9: {
 			title: "Speeding 1-10",

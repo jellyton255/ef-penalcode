@@ -1,19 +1,21 @@
-interface PenalCodeInterface {
+export type Statute = {
+	title: string;
+	class: string;
+	id: string;
+	months: number;
+	fine: number;
+	color: string;
+	description: string;
+};
+
+export interface PenalCode {
 	Title: string;
 	Statutes: {
-		[key: string]: {
-			title: string;
-			class: string;
-			id: string;
-			months: number;
-			fine: number;
-			color: string;
-			description: string;
-		};
+		[key: string]: Statute;
 	};
 }
 
-const PenalCode: PenalCodeInterface[] = [];
+const PenalCode: PenalCode[] = [];
 
 PenalCode[0] = {
 	Title: "OFFENSES AGAINST PERSONS",

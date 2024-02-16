@@ -1758,7 +1758,7 @@ PenalCode[9] = {
       class: "Misdemeanor",
       id: "P.C. 10006",
       months: 10,
-      fine: 100,
+      fine: 110,
       color: "orange",
       description:
         "A person who hunts over the amount allowed in a given hunting area is guilty under this code section. The current amount legally allowed by a single individual is defined as 200 kg of combined animal meat and skins, fur, tusks, or other animal by-products.",

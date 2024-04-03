@@ -637,7 +637,7 @@ PenalCode[4] = {
 			months: 10,
 			fine: 1005,
 			color: "red",
-			description: "Any person arrested, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer is guilty under this code section.",
+			description: "Any person arrested, detained, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer, Peace Officer, Police Officer, or Federal Agent is guilty under this code section.",
 		},
 		5: {
 			title: "Jailbreak",

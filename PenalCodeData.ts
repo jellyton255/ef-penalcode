@@ -1091,7 +1091,7 @@ PenalCode[6] = {
 			months: 60,
 			fine: 5000,
 			color: "red",
-			description: "A person who unlawfully transports a large quantity of a controlled substance, defined as greater than 10 kg, across, into, or out of the state is guilty under this section.",
+			description: "A person who unlawfully transports a large quantity of a controlled substance, defined as greater than 250 kg, across, into, or out of the state is guilty under this section.",
 		},
 		18: {
 			title: "Driving Under the Influence of Narcotics",

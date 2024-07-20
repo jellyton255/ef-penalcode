@@ -1142,7 +1142,7 @@ PenalCode[7] = {
 			months: 10,
 			fine: 2000,
 			color: "red",
-			description: "A person who illegally possesses a weapon of Class B is guilty under this code section. Illegal possession is defined as someone who is not licensed to or legally able to carry a weapon based on their criminal history. Class B weapons are defined as semi-automatic handguns or rifles.",
+			description: "A person who illegally possesses a weapon of Class B is guilty under this code section. Illegal possession is defined as someone who is not licensed to or legally able to carry a weapon based on their criminal history. Class B weapons are defined as semi-automatic or bolt-action handguns or rifles.",
 		},
 		3: {
 			title: "Criminal Possession of Weapon Class C",
@@ -1178,7 +1178,7 @@ PenalCode[7] = {
 			months: 10,
 			fine: 5000,
 			color: "red",
-			description: "A person who illegally sells or distributes a weapon of Class B is guilty under this code section. Illegal possession is defined as someone who is not licensed to or legally able to carry a weapon based on their criminal history. Class B weapons are defined as semi-automatic handguns or rifles.",
+			description: "A person who illegally sells or distributes a weapon of Class B is guilty under this code section. Illegal possession is defined as someone who is not licensed to or legally able to carry a weapon based on their criminal history. Class B weapons are defined as semi-automatic or bolt-action handguns or rifles.",
 		},
 		7: {
 			title: "Criminal Sale of Weapon Class C",

@@ -458,6 +458,15 @@ PenalCode[1] = {
 			color: "orange",
 			description: "A person who has possession of stolen items, with knowledge that the item is stolen, is guilty under this code section.",
 		},
+		4: {
+			title: "Theft of a Law Enforcement Vehicle",
+			class: "Felony",
+			id: "P.C. 2021",
+			months: 60,
+			fine: 10000,
+			color: "red",
+			description: "A person who commits the theft of any motor vehicle owned by a law enforcement agency is guilty under this code section.",
+		},
 	},
 };
 
@@ -559,7 +568,7 @@ PenalCode[3] = {
 			months: 15,
 			fine: 1500,
 			color: "red",
-			description: "A person who, without proper authorization, enters any government owned or managed facility that is secured with the intent of keeping ordinary citizens outside is guilty under this code section.",
+			description: "A person who, without proper authorization, enters any government-owned or managed facility that is secured with the intent of keeping ordinary citizens outside is guilty under this code section.",
 		},
 		3: {
 			title: "Arson",

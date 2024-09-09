@@ -458,7 +458,7 @@ PenalCode[1] = {
 			color: "orange",
 			description: "A person who has possession of stolen items, with knowledge that the item is stolen, is guilty under this code section.",
 		},
-		4: {
+		21: {
 			title: "Theft of a Law Enforcement Vehicle",
 			class: "Felony",
 			id: "P.C. 2021",

@@ -1215,7 +1215,15 @@ const PenalCode: PenalCode[] = [
         months: 5,
         fine: 1500,
         description: "A licensed person who fails to report a lost or stolen firearm; lends a firearm to another licensed person outside the presence of the registered owner; or provides firearm access to an unlicensed person is guilty under this code section.",
-      },      
+      },
+      22: {
+        title: "Criminal Possession of Ammunition",
+        class: "Felony",
+        id: 8022,
+        months: 5,
+        fine: 500,
+        description: "A person who possesses ammunition without a firearms license, or who is otherwise legally prohibited from possessing ammunition due to their criminal history, is guilty under this code section.",
+      },
     },
   },
 

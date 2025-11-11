@@ -1508,15 +1508,16 @@ const PenalCode: PenalCode[] = [
         id: 10008,
         months: 5,
         fine: 3275,
-        description: "Unless otherwise specified, fishing for sport and game may be conducted on public waterways in the State of Los Santos. The following areas are prohibited fishing grounds: Zancudo River, Lago Zancudo Wetlands, Land Act Reservoir, and the Port of Los Santos",
+        description: "Unless otherwise specified, fishing for sport and game may be conducted on public waterways in the State of Los Santos. The following areas are prohibited fishing grounds: Lago Zancudo Wetlands, Land Act Reservoir, and the Port of Los Santos",
       },
       9: {
         title: "Illegal Fishing",
-        class: "Misdemeanor",
+        class: "Infraction",
         id: 10009,
-        months: 15,
-        fine: 6250,
-        description: "Illegal fishing is defined as fishing using illegal hooks or possessing, transporting, or selling fish of prohibited lengths or species. Species that are prohibited from possession include: whales, sharks, arapaima, giant snakehead, goliath tigerfish, devil rays, kraken, megalodon, giant coelacanth, and golden fish. These fish, however, may be caught for sport and then immediately released. The minimum and maximum lengths for fish that may be caught, transported and sold are as follows (in inches): Salmon |30 - 40|, Trout |20 - 30|, Bass |20 - 30|, Catfish |18 - 30|, Perch |5 - 10|, Pike |22 -38 in|, Carp |15 - 30|, Bluegill |7 - 14 in|, Cod |30 - 45|, Herring |7 - 13|, Walleye |26 - 38|, Bream |12 - 22|, Zander |22 - 38|, Sturgeon |100 - 130|, Swordfish |65 - 95|, Tuna |50 - 75|, Muskellunge |32 - 48|, Tarpon |75 - 110|, Giant Catfish |85 - 115|. Individuals found to be illegally possessing, transporting, or selling these species are subject to confiscation of the fish and subject to the penalties outlined herein. ",
+        months: 0,
+        fine: 100,
+        description:
+          "Illegal fishing is defined as fishing using illegal hooks or possessing, transporting, or selling fish of prohibited weights or species. The following species are strictly prohibited from possession under any circumstances and may only be caught for sport and must be immediately released upon capture: Barreleye (Legendary), Oarfish (Epic), Whale Shark (Epic), Arapaima (Rare), Giant Snakehead (Rare). All other fish species may be caught, transported, or sold only within their legal weight limits as officially posted by BCSO Wildlife: Fish & Game. Any fish below the minimum or above the maximum listed weight is considered illegal and subject to confiscation and penalty as defined above per violation.",
       },
       10: {
         title: "Overfishing",
@@ -1524,7 +1525,7 @@ const PenalCode: PenalCode[] = [
         id: 10010,
         months: 0,
         fine: 600,
-        description: "Daily catch limit is 30 fish per person per day. Violations of the catch limit are punishable by up to $600 per fish above the allotted amount. All fishing vessels and subjects who are engaged in fishing are subject to random inspections by Fish & Wildlife Officers for the stated purpose of monitoring fishing equipment, fish length, and all other duties.",
+        description: "Daily catch limit is 30 fish per person per day. Violations of the catch limit are punishable by up to $600. All fishing vessels and subjects who are engaged in fishing are subject to random inspections by Fish & Wildlife Officers for the stated purpose of monitoring fishing equipment, fish weight, and all other duties.",
       },
       11: {
         title: "Attempted Murder of a Police Working Dog",

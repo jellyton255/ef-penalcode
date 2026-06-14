@@ -26,7 +26,7 @@ No ordinary single charge should normally exceed 70-80 base time. The 120 ceilin
 
 ## Generated Range Table
 
-I generated `penal-code-liability-sentencing-ranges.csv` with one row per charge degree and liability option. It contains 188 liability-specific rows.
+I generated `penal-code-liability-sentencing-ranges.csv` with one row per charge degree and liability option. It contains 221 liability-specific rows.
 
 Range methodology:
 

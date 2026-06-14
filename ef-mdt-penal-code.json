@@ -1271,6 +1271,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.5
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1285,6 +1291,7 @@
                                                                     "principles":  [
                                                                                        "Vehicle value is not required for this degree.",
                                                                                        "The suspect must lack consent from the owner or lawful possessor.",
+                                                                                       "Accessory liability should be used when a person knowingly assists, enables, conceals, stores, transports, scouts for, or otherwise helps the vehicle theft without personally taking or controlling the vehicle as the principal actor.",
                                                                                        "Use this degree for ordinary unattended or nonviolent vehicle theft; if the theft involves weapons, another felony, occupied taking, aircraft, or protected law-enforcement vehicles, evaluate the more specific degree.",
                                                                                        "Reports should document vehicle ownership, how control was taken, location recovered, damage, and any statements showing intent."
                                                                                    ]
@@ -1304,6 +1311,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.5
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1320,6 +1333,7 @@
                                                                     "principles":  [
                                                                                        "The vehicle theft elements must be satisfied first.",
                                                                                        "The aggravating fact must be tied to the theft event, such as being armed, committing another felony, using the vehicle to facilitate another felony, or creating a serious public-safety risk.",
+                                                                                       "Accessory liability should be used when a person knowingly assists, enables, conceals, stores, transports, scouts for, or otherwise helps the aggravated vehicle theft without personally taking or controlling the vehicle as the principal actor.",
                                                                                        "Do not use this degree for theft of a law-enforcement vehicle; that protected vehicle degree remains separate.",
                                                                                        "Reports should document the separate felony, weapon, pursuit, danger, or facilitation facts instead of relying only on the vehicle theft."
                                                                                    ]
